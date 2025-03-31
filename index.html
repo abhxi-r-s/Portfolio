@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Abhishek">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Abhishek RS</title>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="Assets/portfolio.png" alt="Logo" width="30" height="34" class="d-inline-block align-text-top">
+            
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Section -->
+<section id="About" class="container">
+    <h2>Hello! 👋 I'm Abhishek</h2>
+    <div class="row align-items-center">
+        <div class="col-lg-6">
+            <p>I'm a passionate frontend developer with skills in MERN stack, C, and Python programming.
+                I'm also interested in IoT, industrial infrastructure, and building full-stack web and mobile applications.</p>
+            <p>I enjoy solving real-world problems through clean and efficient code.
+                Always eager to learn new technologies and contribute to innovative projects.</p>
+            <a href="#Projects" class="btn btn-primary">Explore Projects</a>
+        </div>
+        <div class="col-lg-6 text-center">
+            <img src="Assets/user.png" alt="Profile Picture" class="img-fluid rounded-circle" style="max-width: 300px;">
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="Services" class="container">
+    <h2>Services</h2>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+                <img src="Assets/frontend.png" class="card-img-top" alt="Frontend Development">
+                <div class="card-body">
+                    <h5 class="card-title">Frontend Development</h5>
+                    <p class="card-text">Crafting elegant, responsive, and user-friendly web interfaces with HTML, CSS, and React.js.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+                <img src="Assets/backend.png" class="card-img-top" alt="Backend Development">
+                <div class="card-body">
+                    <h5 class="card-title">Backend Development</h5>
+                    <p class="card-text">Building efficient and scalable server-side applications with Node.js and Express.js.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <div class="card h-100">
+                <img src="Assets/database.png" class="card-img-top" alt="Database Management">
+                <div class="card-body">
+                    <h5 class="card-title">Database Management</h5>
+                    <p class="card-text">Managing and optimizing data storage with MongoDB and SQL databases.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="Projects" class="container">
+    <h2>Projects</h2>
+    <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="Assets/panchayat.jpeg" class="d-block w-100" alt="Project 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>IoT Home Automation</h5>
+                    <p>Developed a smart home automation system using IoT devices.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Assets/Health-Wallet-Avatar.webp" class="d-block w-100" alt="Project 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Full-Stack E-commerce Platform</h5>
+                    <p>Created a MERN stack e-commerce website with payment integration.</p>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
